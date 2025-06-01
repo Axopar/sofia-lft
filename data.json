@@ -1,1 +1,53 @@
-
+{
+  "metadata": {
+    "ultima_actualizacion": "2024-06-01",
+    "fuente_oficial": "Diario Oficial de la Federación",
+    "version": "1.0.0"
+  },
+  "articulos": {
+    "47": {
+      "texto": "Son causas de rescisión de la relación de trabajo sin responsabilidad para el patrón: I. Engañarlo con certificados falsos; II. Incurrir en actos de violencia; III. Cometer hostigamiento sexual; IV. Cometer actos inmorales en el trabajo; V. Ocasionar daños materiales intencionales...",
+      "explicacion": "Este artículo protege al patrón cuando el trabajador comete faltas graves. Requiere prueba documental.",
+      "tags": ["despido", "rescisión", "causas"],
+      "relacionados": ["Art. 46", "Art. 50"],
+      "jurisprudencia": "Tesis: 2012345 (SCJN)"
+    },
+    "123": {
+      "texto": "La duración máxima de la jornada será: ocho horas la diurna, siete la nocturna y siete horas y media la mixta. Los menores de dieciséis años solo podrán trabajar seis horas diarias.",
+      "explicacion": "Jornadas superiores generan horas extras (pagadas al 200% la primera y 300% después).",
+      "tags": ["jornada", "horario", "horas_extras"],
+      "relacionados": ["Art. 59", "Art. 68"],
+      "reforma": "2023-05-12"
+    },
+    "82": {
+      "texto": "El salario se pagará directamente al trabajador. Podrá hacerse por cheque, transferencia o efectivo, previo acuerdo con el trabajador.",
+      "explicacion": "El patrón no puede imponer un método de pago unilateralmente.",
+      "tags": ["salario", "pago"],
+      "sancion": "Multa de 50 a 500 UMA por incumplimiento"
+    }
+  },
+  "conceptos": {
+    "despido_injustificado": {
+      "definicion": "Terminación laboral sin causa legal válida según el Art. 47 LFT.",
+      "acciones": [
+        "Demandar ante Junta de Conciliación",
+        "Reclamar indemnización (3 meses de salario + 20 días por año)"
+      ],
+      "plazo": "2 meses desde el despido"
+    },
+    "salario_minimo": {
+      "valor_2024": "$248.93 MXN (Zona Libre: $374.89)",
+      "fundamento": "Art. 90 LFT"
+    }
+  },
+  "plantillas": {
+    "demanda_despido": {
+      "ruta": "/plantillas/demanda.docx",
+      "requisitos": [
+        "Copia contrato laboral",
+        "Comprobante de pagos",
+        "Notificación de despido"
+      ]
+    }
+  }
+}
